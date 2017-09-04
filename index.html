@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>CPC Connect Developer Task</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="page-wrap">
+  
+  <h1>Required Tasks</h1>
+  <ol>
+    <li>Make This Responsive</li>
+    <li>Dynamically load from JS</li>
+    <li>Validate subscription form</li>
+  </ol>
+  
+  <h2>Bonus Tasks:</h2>
+  <ol>
+    <li>Make main story headline upper case</li>
+    <li>Pass https://validator.w3.org/</li>
+  </ol>
+  
+  <article class="main-story">    
+    <img src="images/hero.jpg" alt="Generic image everyone finds silly"/>    
+    <div class="story-intro">
+      <h1>Most Important Story</h1>
+      <p>This article has the most visual weight. <a href="https://pixabay.com/en/lamp-light-hand-idea-lights-2663053/">image source.</a></p>
+    </div>    
+  </article>
+  
+  <section class="sub-stories">
+  
+    <article class="sub-story">
+      <img src="http://placekitten.com/250/350"/>
+      <div class="story-intro">
+        <h2>Less Important Story</h2>
+        <p>This story has less visual weight.</p>
+      </div>
+    </article>
+    
+    <article class="sub-story">
+      <img src="http://placecage.com/250/350"/>
+      <div class="story-intro">
+        <h2>Less Important Story</h2>
+        <p>This story has less visual weight.</p>
+      </div>
+    </article>
+    
+    <article class="sub-story last">
+      <img src="http://placebear.com/250/350"/>
+      <div class="story-intro">
+        <h2>Less Important Story</h2>
+        <p>This story has less visual weight.</p>
+      </div>
+    </article>
+    
+  </section>
+  
+  <footer>
+    <form id="subscription" action="?">
+        <label for="email">Please enter your email:</label>
+        <input id="email" placeholder="Email Address"/>
+        
+        <select id="info">
+            <option disabled="disabled" selected value="-1">Where did you hear about us?</option>
+            <option value="1">Online</option>
+            <option value="2">App Store</option>
+            <option value="3">Search</option>
+        </select>
+        
+        <button type="submit">Subscribe</button>
+    </form>
+  </footer>
+  
+</div> 
+<script src="js/script.js"></script>
+</body>
+</html>
