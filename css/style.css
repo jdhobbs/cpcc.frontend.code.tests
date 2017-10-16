@@ -46,6 +46,7 @@ a {
     }
 
     .story--main .story__headline {
+      text-transform: uppercase;
       font-size: 2.5em;
     }
 
