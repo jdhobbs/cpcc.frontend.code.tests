@@ -43,8 +43,10 @@
   
   <footer>
     <form id="subscription" action="?">
-        <label for="email">Please enter your email:</label>
-        <input id="email" placeholder="Email Address"/>
+        <label>
+          Please enter your email:
+          <input id="email" placeholder="Email Address" required pattern=".*@.*\..*" />
+        </label>
         
         <select id="info">
             <option disabled="disabled" selected value="-1">Where did you hear about us?</option>
