@@ -87,3 +87,25 @@ a {
       position: static;
     }
   }
+
+footer {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+.subscribe__heading {
+  margin-top: 0;
+}
+
+.subscribe__item {
+  display: block;
+  margin: 20px 0;
+}
+
+.subscribe__item input,
+.subscribe__item select {
+  display: block;
+  margin: 1ex 0;
+}

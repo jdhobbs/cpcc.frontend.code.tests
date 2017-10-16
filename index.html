@@ -42,13 +42,16 @@
   </div>
   
   <footer>
+    <h2 class="subscribe__heading">Subscribe for updates</h2>
+
     <form id="subscription" action="?">
-      <label>
+
+      <label class="subscribe__item">
         <span>Please enter your email:</span>
         <input id="email" placeholder="Email Address" required pattern=".+@.+\..+" />
       </label>
       
-      <label>
+      <label class="subscribe__item">
         <span>Where did you hear about us?</span>
         <select id="info" required>
           <option value="">Choose one</option>
@@ -62,9 +65,11 @@
     </form>
   </footer>
   
-</div> 
+</div>
+
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 <script src="js/stories.js"></script>
 <script src="js/subscribe.js"></script>
+
 </body>
 </html>
