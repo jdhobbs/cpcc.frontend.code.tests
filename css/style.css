@@ -35,7 +35,8 @@ a {
   }
 
   .story__image {
-    display: block; 
+    display: block;
+    max-width: 100%;
   }
 
   .story__intro {
@@ -55,3 +56,16 @@ a {
     .story__intro p {
       margin: 0;
     }
+
+  @media screen and (max-width: 849px) {
+    .story--sub {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      margin: 0 0 25px 0;
+    }
+
+    .story--sub .story__intro {
+      position: static;
+    }
+  }
