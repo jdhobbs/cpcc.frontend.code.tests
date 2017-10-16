@@ -43,24 +43,28 @@
   
   <footer>
     <form id="subscription" action="?">
-        <label>
-          Please enter your email:
-          <input id="email" placeholder="Email Address" required pattern=".*@.*\..*" />
-        </label>
-        
-        <select id="info">
-            <option disabled="disabled" selected value="-1">Where did you hear about us?</option>
-            <option value="1">Online</option>
-            <option value="2">App Store</option>
-            <option value="3">Search</option>
+      <label>
+        <p>Please enter your email:</p>
+        <input id="email" placeholder="Email Address" required pattern=".*@.*\..*" />
+      </label>
+      
+      <label>
+        <p>Where did you hear about us?</p>
+        <select id="info" required>
+          <option value="">Choose one</option>
+          <option value="1">Online</option>
+          <option value="2">App Store</option>
+          <option value="3">Search</option>
         </select>
-        
-        <button type="submit">Subscribe</button>
+      </label>
+      
+      <button type="submit">Subscribe</button>
     </form>
   </footer>
   
 </div> 
 <script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/script.js"></script>
+<script src="js/stories.js"></script>
+<script src="js/subscribe.js"></script>
 </body>
 </html>
