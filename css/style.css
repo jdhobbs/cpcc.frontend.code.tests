@@ -7,14 +7,6 @@
   margin: 20px auto;
 }
 
-h1 {
-   font-size: 4em;
-}
-
-h1, h2 {
-  margin: 0 0 10px 0;
-}
-
 a {
   color: lightblue;
 }
@@ -49,8 +41,16 @@ a {
     color: white;
   }
 
-    .story__intro h1 {
-      font-size: 2.5em; 
+    .story__headline {
+      margin: 0 0 10px 0;
+    }
+
+    .story--main .story__headline {
+      font-size: 2.5em;
+    }
+
+    .story--sub .story__headline {
+      font-size: 1.5em;
     }
 
     .story__intro p {
@@ -64,8 +64,9 @@ a {
   }
 
   @media screen and (max-width: 849px) {
-    .story__intro h1 {
-      font-size: 1.5em;
+    .story--main .story__headline,
+    .story--sub .story__headline {
+      font-size: 1.2em;
     }
 
     .story--sub {
